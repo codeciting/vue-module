@@ -1,0 +1,6 @@
+{
+  "name": "Vue module demo",
+  "description": "A demo vue module project.",
+  "vuexNamespace": "vue-module-demo",
+  "vueRouterBasePath": "/vue-module-demo"
+}

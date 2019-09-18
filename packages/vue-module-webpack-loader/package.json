@@ -1,0 +1,35 @@
+{
+  "name": "@codeciting/vue-module-webpack-loader",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jagger <linjie.gao@tendcloud.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/vue-module-webpack-loader.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "loader-utils": "^1.2.3"
+  },
+  "devDependencies": {
+    "@codeciting/vue-module-core": "^0.0.0",
+    "@types/webpack": "^4.39.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.1",
+    "webpack": "^4.40.2"
+  },
+  "peerDependencies": {
+    "@codeciting/vue-module-core": "^0.0.0"
+  }
+}

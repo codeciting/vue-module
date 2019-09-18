@@ -1,0 +1,8 @@
+{
+  "name": "Test Module",
+  "description": "Test description",
+  "vuexNamespace": [
+    "bar"
+  ],
+  "vueRouterBasePath": "/module/test"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@codeciting/vue-module-demo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jagger <linjie.gao@tendcloud.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/vue-module-demo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@codeciting/vue-module-core": "^0.0.0",
+    "@codeciting/vue-module-webpack-loader": "^0.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
